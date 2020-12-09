@@ -1,0 +1,29 @@
+{
+  "name": "node-project-starter",
+  "version": "1.0.0",
+  "description": "NodeJS Project Starter",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose --runInBand --coverage --forceExit",
+    "start": "node app",
+    "dev": "nodemon app",
+    "scss": "node-sass scss/main.scss public/css/main.css",w
+    "watch-scss": "node-sass -w scss -o public/css",
+    "watch": "npm run dev & npm run watch-scss"
+  },
+  "keywords": [],
+  "author": "Nate Walters",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "node-sass": "^5.0.0",
+    "os": "^0.1.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  }
+}

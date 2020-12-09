@@ -1,0 +1,35 @@
+// Names
+$white: #ffffff;
+$black: #000000;
+
+$shark: #282C34;
+$malibu: #61D9FA;
+$gallery: #ECECEC;
+$fern: #5cb85c;
+$roman: #d9534f;
+$shuttle-gray: #626C80;
+$charcoal: #333333;
+$steel: #666666;
+
+
+// Roles
+$primary: $shark;
+$secondary: darken($primary, 5%);
+$accent: $malibu;
+
+// Text
+$text-primary: $white;
+$text-secondary: $charcoal;
+
+// Elements
+$border: darken($primary, 25%);
+$line: darken($primary, 25%);
+
+// Contextual, Notification, and/or Badge Colors
+
+$notice: blue;
+$grey: grey;
+$success: green;
+$danger: red;
+$warning: yellow;
+$info: lightblue;

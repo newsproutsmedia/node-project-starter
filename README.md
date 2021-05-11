@@ -1,5 +1,5 @@
-# node-project-starter
-Basic starter setup for NodeJS/Express project using Scss
+# Node/Express Project Starter
+Basic starter setup for NodeJS/Express project using SCSS.
 
 ### Express Setup
 This starter exposes the index.html page in a public directory. No express endpoints have been set up yet.
